@@ -24,7 +24,6 @@ function groupSum(arr, start) {
   for (let i = start; i < start + 3; i++) {
     sum += arr[i];
   }
-  console.log(sum);
   return sum;
 }
 

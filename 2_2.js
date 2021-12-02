@@ -20,7 +20,6 @@ const movements = lines.map(line => {
   }
 });
 
-//loop through each line, stargin with the second line
 for (let i = 0; i < movements.length; i++) {
   const movement = movements[i];
   if (movement.direction === 'forward') {
